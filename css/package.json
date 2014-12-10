@@ -1,0 +1,7 @@
+{
+	"name": "roundabout",
+	"version": "0.0.5",
+	"devDependencies": {
+		"grunt": "~0.4.1"
+	}
+}
