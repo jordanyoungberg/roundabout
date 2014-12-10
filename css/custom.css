@@ -2,19 +2,22 @@ body {
     padding-top: 120px;
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-image: url('../images/bg/background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 .well {
-background-color: rgba(0,0,0,0.05);
+background-color: rgba(0,0,0,0.15);
 border-color: rgba(0,0,0,0.1);
 }
 
 .panel {
-background-color: rgba(0,0,0,0.05);
+background-color: rgba(0,0,0,0.15);
 border-color: rgba(0,0,0,0.1);
-  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
-          box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .15);
+          box-shadow: 0 0px 0px rgba(0, 0, 0, .15);
 }
 
 
