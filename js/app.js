@@ -1,1 +1,1 @@
-var app = angular.module('roundAbout', []);
+var app = angular.module('roundAbout', ['ngTouch, ngAnimate']);
