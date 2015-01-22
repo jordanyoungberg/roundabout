@@ -6,8 +6,8 @@
     display: block;
     -webkit-transition: 0.5s linear all;
     transition: 0.5s linear all;
-    -webkit-transition-delay: 0.6s;
-    transition-delay: 0.6s;
+    -webkit-transition-delay: 0.7s;
+    transition-delay: 0.7s;
 }
 
 .show-hide.ng-hide-add-active {
