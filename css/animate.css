@@ -1,6 +1,19 @@
 .show-hide {
-    -webkit-transition:all linear 0.5s;
-    transition:all linear 0.5s;
+    position: relative;
+}
+
+.show-hide.ng-hide-remove-active {
+    display: block;
+    -webkit-transition: 0.5s linear all;
+    transition: 0.5s linear all;
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+.show-hide.ng-hide-add-active {
+    display: block;
+    -webkit-transition: 0.5s linear all;
+    transition: 0.5s linear all;
 }
 
 .show-hide.ng-hide {
